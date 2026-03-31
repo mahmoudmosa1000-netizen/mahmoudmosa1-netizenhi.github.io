@@ -1,0 +1,83 @@
+      body {
+        background-color: #8F9790;
+        border: 2px solid hsl(128, 4%, 58%);
+        color: black;
+        font-family: "Trebuchet MS", sans-serif;
+        text-align: left;
+        border-radius: 10px;
+        padding: 20px;
+        font-size: 18px; /* Etwas herabgesetzt für bessere Lesbarkeit auf normalen Bildschirmen */
+        margin: 40px auto;
+        max-width: 800px; /* Verhindert, dass der Text auf breiten Bildschirmen wegläuft */
+      }
+
+      img {
+        display: block;
+        margin: 0 auto 20px auto;
+        border-radius: 50%; /* 50% macht es perfekt rund, 900px war ein "Hack" ;) */
+        height: 300px;
+        width: 300px;
+        object-fit: cover; /* Verhindert Verzerrungen des Bildes */
+      }
+
+      p {
+        margin: 10px 0;
+        line-height: 1.6; /* Macht längere Texte deutlich lesbarer */
+        font-family: "Segoe UI", Arial, sans-serif;
+      }
+
+      h1 {
+        font-family: Georgia, serif;
+        margin-top: 30px;
+      }
+
+      h2 {
+        font-size: 25px;
+        text-align: center;
+        font-family: Georgia, serif;
+      }
+
+      h3 {
+        text-align: center;
+        font-family: "Courier New", Courier, monospace; /* Monospace passt super zu Mathe/Code */
+        background: rgba(255, 255, 255, 0.2);
+        padding: 10px;
+        border-radius: 5px;
+        margin: 10px 0;
+      }
+
+      strong {
+        font-size: 1.1em;
+      }
+
+      ul {
+        padding-left: 20px;
+      }
+
+      li {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        margin-bottom: 20px;
+      }
+
+      h4 {
+        padding: 15px;
+        text-align: center;
+        font-style: normal;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 5px;
+      }
+
+      /* Textausrichtungen */
+      .left {
+        text-align: left;
+      }
+
+      .center {
+        text-align: center;
+      }
+
+
+      a:hover {
+        color: #e0e0e0;
+      }
